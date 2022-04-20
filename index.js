@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 app.use(express.static('public'));
 
                                                 
-app.listen(port, () => {            
+app.listen(port, () => {
     console.log(`Now listening on port ${port}`); 
 });
 
